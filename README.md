@@ -1,1 +1,12 @@
 # PERS_PensionOptions
+- I use this to evaluate and consider which option an individual should take regarding their pension. Should they opt out of the pension income and take the lumpsum and transfer to a rollover IRA?
+- The trigger points here are the life expectancy of the client and spouse.
+- The outcome in the bottom graph reflects the present value of the income streams based upon an assumed discount rate and inflation adjustment of the pension if applicable.
+- For instance, I usually look at a scenario where they each live to age 90 to be conservative. This is beyond actuarial life expectancy by a few years. Which option has the highest present value today of the future value of pension cash flows? In most cases, the life-only option wins.
+- The top graph reflects the cash flow from each pension option, and most adjust at either death.
+- Then we look at what happens if the spouse with the pension (HEAD_ONE) dies prematurely. Which option wins? It has the highest net present value of pension cash flows. This is reflected in the bottom graph.
+- We then look at what happens if the spouse (HEAD_TWO) without the pension passes before HEAD_ONE. Which pension wins?
+- We can test a few pension escalators and discount rates.  The discount rate is usually the return we assume they could get on the Rollover IRA.
+- If they have the option of transferring a lump sum amount to a Rollover IRA how does that value stack up? In this case, they may opt out of the pension cash flow stream and draw income from the Rollover IRA funded by the lump sum.
+- This provides no specific answer. It includes material for some great discussions to make an informative decision.
+- This was a fun project that took many hours, and I have run several models with different pensions. They are time-consuming to rename and debug. Most pensions have other names that vary upon death. I’m setting up classes so that I can use them with any pension data. The classes' names, values, and assumptions will populate the code and make the process much faster. The readability of the code will be horrible.
